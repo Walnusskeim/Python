@@ -14,7 +14,7 @@ def check_input(a_list,ui):
     #check if number is already in the list
     if (ui in a_list):
         return False
-return True
+    return True
 
 
 ### main program ###
