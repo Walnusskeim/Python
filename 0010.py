@@ -9,7 +9,7 @@ a_list = []
 #define a function
 def check_input(a_list,ui):
     #check range of number
-    if(ui < 0 or ui >10):
+    if (ui < 0 or ui > 10):
         return False
     #check if number is already in the list
     if (ui in a_list):
