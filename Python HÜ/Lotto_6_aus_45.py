@@ -1,6 +1,6 @@
 '''
 Lotto Simulation bei der der Computer sechs zufällig generierte Zahlen erstellt
-und der User sie auf anhieb erraten muss.
+und der User sie auf Anhieb erraten muss.
 31.01.22
 Maximilian
 '''
