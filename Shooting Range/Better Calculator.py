@@ -1,4 +1,4 @@
-#a
+#Holy shit i bin so a Pro
 
 from tkinter import *
 
