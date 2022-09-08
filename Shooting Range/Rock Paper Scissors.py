@@ -4,15 +4,17 @@ import time
 player = input("Rock, Paper, Scissors? ")
 com = random.randint(1, 3)
 
-if player == "Rock" or "rock":
+
+if player == "Rock" or player == "rock":
     player = "Rock"
-elif player == "Paper" or "paper":
+elif player == "Paper" or player == "paper":
     player = "Paper"
-elif player == "Scissors" or "scissors":
+elif player == "Scissors" or  player == "scissors":
     player = "Scissors"
 else:
     print("Invalid input.")
     exit()
+
 
 if com == 1:
     com = "Rock"
