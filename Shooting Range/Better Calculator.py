@@ -1,4 +1,4 @@
-#Holy shit i bin so a Pro
+#Holy shit i bin so a pro
 
 from tkinter import *
 
@@ -66,19 +66,7 @@ def button_dot():
 # Creating Lable
 root = Tk()
 root.title("Better Calculator by @RonaldMcDonald14")
-
-#Auto resize
-root.grid_columnconfigure(0, weight=1)
-root.grid_columnconfigure(1, weight=1)
-root.grid_columnconfigure(2, weight=1)
-root.grid_columnconfigure(3, weight=1)
-root.grid_rowconfigure(0, weight=1)
-root.grid_rowconfigure(1, weight=1)
-root.grid_rowconfigure(2, weight=1)
-root.grid_rowconfigure(3, weight=1)
-root.grid_rowconfigure(4, weight=1)
-root.grid_rowconfigure(5, weight=1)
-
+root.geometry("302x432")
 
 # Creating Entry
 e = Entry(root, width=40, borderwidth=5)
